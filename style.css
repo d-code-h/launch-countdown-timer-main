@@ -1,0 +1,31 @@
+::root {
+  --grayish-blue: hsl(237, 18%, 59%)
+  --soft-red: hsl(345, 95%, 68%)
+  --white: hsl(0, 0%, 100%);
+  --dark-blue: hsl(236, 21%, 26%)
+  --very-dark-blue: hsl(235, 16%, 14%)
+  --dark-black-blue: hsl(234, 17%, 12%)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
